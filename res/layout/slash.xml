@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yeezone.aijiuyi.SlashActivity$PlaceholderFragment" >
+
+	<ImageView 
+	    android:src="@drawable/welcome"
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginTop="@dimen/welcome_margin_top"
+	    />
+	
+	<Button 
+	    android:text="@string/next"
+	    android:textColor="#68C5D7"
+	    android:layout_alignParentBottom="true"
+	    android:layout_centerHorizontal="true"
+	    android:background="@drawable/welcome_btn"
+	   	android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    android:onClick="next"
+	    android:layout_marginBottom="@dimen/welcome_margin_bottom"/>
+
+</RelativeLayout>

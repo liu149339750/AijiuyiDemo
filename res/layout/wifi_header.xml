@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content" 
+    android:layout_width="wrap_content"
+    android:orientation="vertical" >
+     <RelativeLayout
+         android:paddingTop="@dimen/welcome_wifi_head_padding"
+         android:paddingBottom="@dimen/welcome_wifi_head_padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         >
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="@dimen/head_back_width"
+            android:layout_height="@dimen/head_back_height"
+            android:layout_marginLeft="10px"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="标题"
+            android:textColor="#68C5D7"
+            android:textSize="36px" />
+
+       <Button
+            android:layout_alignParentRight="true"
+            android:id="@+id/right_text"
+            android:layout_width="@dimen/head_back_width"
+            android:layout_height="@dimen/head_back_height"
+            android:textSize="28px"
+            android:textColor="#866A60"
+            android:clickable="true"
+            android:background="@null"
+            android:layout_marginRight="20px" />
+       
+      <ImageView
+            android:layout_alignParentRight="true"
+            android:id="@+id/right_image"
+            android:visibility="gone"
+            android:layout_width="@dimen/head_back_width"
+            android:layout_height="@dimen/head_back_height"
+            android:src="@drawable/more"
+            android:layout_marginRight="20px" />
+    </RelativeLayout>
+    
+       <RelativeLayout 
+           android:id="@+id/wifi_switch"
+           android:paddingLeft="@dimen/wifi_icon_padding"
+           android:layout_marginBottom="@dimen/welcome_wifi_head_padding"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent">
+            
+           <TextView 
+               android:text="@string/open_wlan"
+               android:textSize="27px"
+               android:layout_height="wrap_content"
+               android:layout_width="wrap_content"/>
+           
+           <Switch 
+               android:id="@+id/switch_bt"
+               android:layout_marginRight="30px"
+               android:layout_alignParentRight="true"
+               android:layout_height="wrap_content"
+               android:layout_width="wrap_content"/>
+        </RelativeLayout>
+
+       <View 
+           android:background="#666666"
+           android:alpha="0.3"
+           android:layout_width="fill_parent"
+           android:layout_height="1px"/>
+</LinearLayout>

@@ -1,0 +1,85 @@
+<timezones>
+    <timezone id="Pacific/Majuro" pyname="mazhuluo">马朱罗</timezone>
+    <timezone id="Pacific/Midway" pyname="zhongtudao">中途岛</timezone>
+    <timezone id="Pacific/Honolulu" pyname="tanxiangshan">檀香山</timezone>
+    <timezone id="America/Anchorage" pyname="ankeleiqi">安克雷奇</timezone>
+    <timezone id="America/Los_Angeles" pyname="luoshanji">美国太平洋时间 (洛杉矶)</timezone>
+    <timezone id="America/Tijuana" pyname="tihuana">美国太平洋时间 (提华纳)</timezone>
+    <timezone id="America/Phoenix" pyname="fenghuangcheng">美国山区时间 (凤凰城)</timezone>
+    <timezone id="America/Chihuahua" pyname="qiwawa">奇瓦瓦</timezone>
+    <timezone id="America/Denver" pyname="danfo">美国山区时间 (丹佛)</timezone>
+    <timezone id="America/Costa_Rica" pyname="gesidalijia">美国中部时间 (哥斯达黎加)</timezone>
+    <timezone id="America/Chicago" pyname="zhijiage">美国中部时间 (芝加哥)</timezone>
+    <timezone id="America/Mexico_City" pyname="moxige">美国中部时间 (墨西哥城)</timezone>
+    <timezone id="America/Regina" pyname="lijiana">美国中部时间 (里贾纳)</timezone>
+    <timezone id="America/Bogota" pyname="bogeda">哥伦比亚时间 (波哥大)</timezone>
+    <timezone id="America/New_York" pyname="niuyue">美国东部时间 (纽约)</timezone>
+    <timezone id="America/Caracas" pyname="jialajiasi">委内瑞拉时间 (加拉加斯)</timezone>
+    <timezone id="America/Barbados" pyname="babaduosi">大西洋时间 (巴巴多斯)</timezone>
+    <timezone id="America/Manaus" pyname="manaosi">亚马逊标准时间 (马瑙斯)</timezone>
+    <timezone id="America/Santiago" pyname="shengdiyage">圣地亚哥</timezone>
+    <timezone id="America/St_Johns" pyname="shengyuehan">纽芬兰时间 (圣约翰)</timezone>
+    <timezone id="America/Sao_Paulo" pyname="shengbaoluo">圣保罗</timezone>
+    <timezone id="America/Argentina/Buenos_Aires" pyname="buyinuosiailisi">布宜诺斯艾利斯</timezone>
+    <timezone id="America/Godthab" pyname="getehuobu">戈特霍布</timezone>
+    <timezone id="America/Montevideo" pyname="mengdeweideya">乌拉圭时间 (蒙得维的亚)</timezone>
+    <timezone id="Atlantic/South_Georgia" pyname="nanqiaozhiya">南乔治亚</timezone>
+    <timezone id="Atlantic/Azores" pyname="yashuerqundao">亚述尔群岛</timezone>
+    <timezone id="Atlantic/Cape_Verde" pyname="fodejiao">佛得角</timezone>
+    <timezone id="Africa/Casablanca" pyname="kasabulanka">卡萨布兰卡</timezone>
+    <timezone id="Europe/London" pyname="lundun">格林尼治标准时间 (伦敦)</timezone>
+    <timezone id="Europe/Amsterdam" pyname="amusitedan">中欧标准时间 (阿姆斯特丹)</timezone>
+    <timezone id="Europe/Belgrade" pyname="beiergelaide">中欧标准时间 (贝尔格莱德)</timezone>
+    <timezone id="Europe/Brussels" pyname="bulusaier">中欧标准时间 (布鲁塞尔)</timezone>
+    <timezone id="Europe/Sarajevo" pyname="salarewo">中欧标准时间 (萨拉热窝)</timezone>
+    <timezone id="Africa/Windhoek" pyname="wendeheke">温得和克</timezone>
+    <timezone id="Africa/Brazzaville" pyname="bulazhawei">西部非洲标准时间 (布拉扎维)</timezone>
+    <timezone id="Asia/Amman" pyname="anman">东欧标准时间 (安曼)</timezone>
+    <timezone id="Europe/Athens" pyname="yadian">东欧标准时间 (雅典)</timezone>
+    <timezone id="Asia/Beirut" pyname="beilute">东欧标准时间 (贝鲁特)</timezone>
+    <timezone id="Africa/Cairo" pyname="kailuo">东欧标准时间 (开罗)</timezone>
+    <timezone id="Europe/Helsinki" pyname="heerxinji">东欧标准时间 (赫尔辛基)</timezone>
+    <timezone id="Asia/Jerusalem" pyname="yelusaleng">以色列时间 (耶路撒冷)</timezone>
+    <timezone id="Europe/Minsk" pyname="mingsike">明斯克</timezone>
+    <timezone id="Africa/Harare" pyname="halalei">中部非洲标准时间 (哈拉雷)</timezone>
+    <timezone id="Asia/Baghdad" pyname="bageda">巴格达</timezone>
+    <timezone id="Europe/Moscow" pyname="mosike">莫斯科</timezone>
+    <timezone id="Asia/Kuwait" pyname="keweite">科威特</timezone>
+    <timezone id="Africa/Nairobi" pyname="neiluobi">东部非洲标准时间 (内罗毕)</timezone>
+    <timezone id="Asia/Tehran" pyname="deheilang">伊朗标准时间 (德黑兰)</timezone>
+    <timezone id="Asia/Baku" pyname="baku">巴库</timezone>
+    <timezone id="Asia/Tbilisi" pyname="dibilisi">第比利斯</timezone>
+    <timezone id="Asia/Yerevan" pyname="ailiwen">埃里温</timezone>
+    <timezone id="Asia/Dubai" pyname="dibai">迪拜</timezone>
+    <timezone id="Asia/Kabul" pyname="kebuer">阿富汗时间 (喀布尔)</timezone>
+    <timezone id="Asia/Karachi" pyname="kalaqi">卡拉奇</timezone>
+    <timezone id="Asia/Oral" pyname="wulaer">乌拉尔</timezone>
+    <timezone id="Asia/Yekaterinburg" pyname="yekajielinbao">叶卡捷林堡</timezone>
+    <timezone id="Asia/Calcutta" pyname="jiaergeda">加尔各答</timezone>
+    <timezone id="Asia/Colombo" pyname="kelunpo">科伦坡</timezone>
+    <timezone id="Asia/Katmandu" pyname="jiademandu">尼泊尔时间 (加德满都)</timezone>
+    <timezone id="Asia/Almaty" pyname="alamutu">阿拉木图</timezone>
+    <timezone id="Asia/Rangoon" pyname="yangguang">缅甸时间 (仰光)</timezone>
+    <timezone id="Asia/Krasnoyarsk" pyname="kelasinuoyaersike">克拉斯诺亚尔斯克</timezone>
+    <timezone id="Asia/Bangkok" pyname="mangu">曼谷</timezone>
+    <timezone id="Asia/Shanghai" pyname="beijing">中国标准时间 (北京)</timezone>
+    <timezone id="Asia/Hong_Kong" pyname="xianggan">香港时间 (香港)</timezone>
+    <timezone id="Asia/Irkutsk" pyname="yierkucike">伊尔库茨克时间 (伊尔库茨克)</timezone>
+    <timezone id="Asia/Kuala_Lumpur" pyname="jilongpo">吉隆坡</timezone>
+    <timezone id="Australia/Perth" pyname="peisi">佩思</timezone>
+    <timezone id="Asia/Taipei" pyname="taibei">台北时间 (台北)</timezone>
+    <timezone id="Asia/Seoul" pyname="shouer">首尔</timezone>
+    <timezone id="Asia/Tokyo" pyname="dongjing">日本时间 (东京)</timezone>
+    <timezone id="Asia/Yakutsk" pyname="yakucike">雅库茨克时间 (雅库茨克)</timezone>
+    <timezone id="Australia/Adelaide" pyname="adelaide">阿德莱德</timezone>
+    <timezone id="Australia/Darwin" pyname="daerwen">达尔文</timezone>
+    <timezone id="Australia/Brisbane" pyname="bulisiban">布里斯班</timezone>
+    <timezone id="Australia/Hobart" pyname="huobate">霍巴特</timezone>
+    <timezone id="Australia/Sydney" pyname="xini">悉尼</timezone>
+    <timezone id="Asia/Vladivostok" pyname="fuladiwosituoke">海参崴时间 (符拉迪沃斯托克)</timezone>
+    <timezone id="Pacific/Guam" pyname="guandao">关岛</timezone>
+    <timezone id="Asia/Magadan" pyname="majiadan">马加丹时间 (马加丹)</timezone>
+    <timezone id="Pacific/Auckland" pyname="aokelan">奥克兰</timezone>
+    <timezone id="Pacific/Fiji" pyname="feiji">斐济</timezone>
+    <timezone id="Pacific/Tongatapu" pyname="dongjiatabu">东加塔布</timezone>
+</timezones>

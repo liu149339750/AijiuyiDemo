@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yeezone.aijiuyi"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="19" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.SET_TIME_ZONE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.yeezone.aijiuyi.SlashActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.yeezone.wifi.WifiActivity"></activity>
+        <activity android:name="com.yeezone.setting.SettingActivity"></activity>
+        <activity android:name="com.yeezone.date.DateActivity"></activity>
+        <activity android:name="com.yeezone.sound.VoiceActivity"></activity>
+        <activity android:name="com.yeezone.display.DisplayActivity"></activity>
+        <activity android:name="com.yeezone.date.TimeZonePickActivity"></activity>
+        <activity android:name="com.yeezone.bluetooth.BluetoothActivity"></activity>
+    </application>
+
+</manifest>

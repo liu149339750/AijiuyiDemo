@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+    
+    <TextView 
+        android:id="@android:id/title"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"/>
+    
+    <RadioGroup 
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal">
+        
+        <RadioButton 
+            android:text="小"
+            android:button="@drawable/font_size"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/font_size_small"/>
+        <RadioButton 
+            android:text="普通"
+            android:gravity="bottom"
+            android:button="@drawable/font_size"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/font_size_normal"/>
+        <RadioButton 
+            android:text="大"
+            android:button="@drawable/font_size"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/font_size_large"/>
+        <RadioButton 
+            android:text="超大"
+            android:button="@drawable/font_size"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/font_size_huge"/>
+    </RadioGroup>
+
+</LinearLayout>
